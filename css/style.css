@@ -2,3 +2,8 @@ body {
     background: #060b14;
     overflow: hidden;
 }
+* {
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+}
