@@ -20,7 +20,7 @@ function r (min, max) {
 
 /*differentiate cot counts based on roughly questimated device and browser capabilities */
 
-var dotsCount = isMobile ? (isAndrois ? 40 :70)  : (isChrome ? 200 : 125),
+var dotsCount = isMobile ? (isAndroid ? 40 :70)  : (isChrome ? 200 : 125),
     dotsHtml = "",
     $count = $("#count"),
     $dots;
