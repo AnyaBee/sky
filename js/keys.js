@@ -1,76 +1,39 @@
 'use strict';
-/*
-document.getElementById('circle-large').addEventListener('keypress', myFunction);
-
-function myFunction() {
-    event.preventDefault();
-    document.getElementById('circle-large').style.backgroundColor = 'yellow';
-    console.log('pressed');
-}
-
-//event.preventDefault()
-
-
-document.getElementById('circle-large'). = function(e) { // or document.onkeypress
-    e = e || window.event;
-    if (e.keyCode == 115 || e.keyCode == 83) {
-        alert("do something");
-    }
-};
-
-/*
-document.getElementById('circle-large').addEventListener('keypress', myFunction);
-
-function myFunction(e) {
-    event.preventDefault();
-    e = e || window.event;
-    if (e.keyCode == 115 || e.keyCode == 83) {
-        alert("do something");
-    }
-}
-
-
-document.getElementById('circle-large').addEventListener('keypress', myFunction);
-
-function myFunction(event) {
-    var x = event.which || event.keyCode;
-    if (x.keyCode == 115 || x.keyCode == 83){
-    document.getElementById('circle-large').innerHTML.add.style.backgroundColor = 'yellow';
-    console.log('event happened!');
-    }
-}
-
-
-
-document.getElementById('circle-large').addEventListener('keypress', function (e) {
-
-    if (e.keyCode == 115 || x.keyCode == 83) {
-
-        console.log('you pressed S');
-
-    }
-
-}, false);
-
-
-
-document.getElementById('circle-large').onkeypress = function(e) { // or document.onkeypress
-    e = event.which || event.keyCode;
-    if (e.keyCode == 115 || e.keyCode == 83) {
-        alert("do something");
-    }
-};
-*/
-
-//Pressing M will change the color of the middle round item, in Chrome!
 
 document.addEventListener("keypress", lightenUpCircle);
+document.addEventListener("keypress", lightenUpMovies);
+document.addEventListener("keydown", lightenUpImage);
 
+//Pressing F will change the background color of the middle round item in Chrome!
 function lightenUpCircle(e) {
     event.preventDefault();
     //e = event.which || event.keyCode;
     if(e.keyCode == 77 || e.keyCode == 109)
-    //document.getElementById('circle-large').style.backgroundColor = 'yellow';
         var element = document.getElementById('circle-large');
-        element.classList.toggle('yellow');
+        element.classList.toggle('transition');
 }
+
+//Pressing M will change the background color of the top right item
+function lightenUpMovies(e) {
+    event.preventDefault();
+    //e = event.which || event.keyCode;
+    if(e.keyCode == 70 || e.keyCode == 102)
+        var element = document.getElementById('movies-block');
+    element.classList.toggle('movies-lightened');
+}
+
+var images = {68: false, 69: false, 86: false};
+function lightenUpImage (e) {
+        if (e.keyCode in images) {
+            images[e.keyCode] = true;
+            if (images[68] && images[69] && images[86]) {
+                var element1 = document.getElementById('image-1');
+                var element2 = document.getElementById('image-2');
+                var element3 = document.getElementById('image-3');
+                element1.classList.toggle('image-lightened');
+                element2.classList.toggle('image-lightened');
+                element3.classList.toggle('image-lightened');
+            }
+        }
+    }
+

@@ -105,8 +105,38 @@ almost black: #000202;
 }
 
 .movies {
+    position: relative;
+    padding: 30px 10px;
     border: 5px solid #4fb8b6;
     text-align: center;
+
+    -webkit-box-shadow: inset 0px 0px 30px 0px rgba(79, 184, 182, 0.75);
+    -moz-box-shadow:    inset 0px 0px 30px 0px rgba(79, 184, 182, 0.75);
+    box-shadow:         inset 0px 0px 30px 0px rgba(79, 184, 182, 0.75);
+
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+
+}
+
+.movies::before {
+    position: absolute;
+    content: "";
+    width: 680px;
+    height: 1px;
+    top: -15px;
+    right: 0;
+    background-color: #4fb8b6;
+}
+.movies::after {
+    position: absolute;
+    content: "";
+    width: 670px;
+    height: 1px;
+    top: -10px;
+    right: 30px;
+    background-color: #4fb8b6;
 }
 
 .instagram-movie-feed {
@@ -139,6 +169,10 @@ almost black: #000202;
     -webkit-box-shadow: inset 0px 0px 30px 20px rgba(255, 255, 255, 0.75);
     -moz-box-shadow:    inset 0px 0px 30px 20px rgba(255, 255, 255, 0.75);
     box-shadow:         inset 0px 0px 30px 20px rgba(255, 255, 255, 0.75);
+
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
 }
 
 .circle-wheel-inner h2 {
@@ -170,6 +204,50 @@ almost black: #000202;
     border: 5px solid #4fb8b6;
 }
 
-.yellow {
-    background-color: yellow;
+.message h2 {
+    max-width: 500px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #1c4b4a; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+            typing 7.5s steps(60, end),
+            blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #1c4b4a;
+    }
+}
+
+/*Javascript toggle classes*/
+
+.transition {
+    background-color: #000202;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: linear
+}
+
+.movies-lightened {
+    background-color: #1c4b4a;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.image-lightened {
+    background-color: white;
 }
