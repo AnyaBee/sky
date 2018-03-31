@@ -50,7 +50,7 @@ almost black: #000202;
 .wrapper-block {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .promo {
@@ -117,7 +117,6 @@ almost black: #000202;
     transition-property: background-color;
     transition-duration: 2s;
     transition-timing-function: ease-out;
-
 }
 
 .movies::before {
@@ -186,15 +185,44 @@ almost black: #000202;
 
 .images {
     width: 25%;
-    border: 5px solid #4fb8b6;
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .image {
-    padding: 20px;
-    width: 200px;
-    border: 5px solid #1c4b4a;
-    margin: 0 10px 25px 10px;
+    border: 5px solid #4fb8b6;
+    -webkit-box-shadow: inset 0px 0px 10px 10px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow:    inset 0px 0px 10px 10px rgba(255, 255, 255, 0.75);
+    box-shadow:         inset 0px 0px 10px 0 rgba(255, 255, 255, 0.75);
+    width: 230px;
+    height: 160px;
+    margin: 0 10px 10px 10px;
+}
+
+.image1 {
+    background: url("../images/space1.jpg") no-repeat;
+    background-size: 250px;
+}
+
+.image2 {
+    background: url("../images/space2.jpg") no-repeat;
+    background-size: 250px;
+}
+
+.image3 {
+    background: url("../images/space3.jpg") no-repeat;
+    background-size: 250px;
+}
+
+.image1:hover,
+.image2:hover,
+.image3:hover {
+    transform: scale(1.2);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
 }
 
 .message {
@@ -249,5 +277,6 @@ almost black: #000202;
 }
 
 .image-lightened {
-    background-color: white;
+    background: url("../images/earth2.jpg") no-repeat;
+    background-size: cover;
 }

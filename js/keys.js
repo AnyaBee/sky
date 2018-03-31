@@ -7,18 +7,19 @@ document.addEventListener("keydown", lightenUpImage);
 //Pressing F will change the background color of the middle round item in Chrome!
 function lightenUpCircle(e) {
     event.preventDefault();
+    var element = document.getElementById('circle-large');
     //e = event.which || event.keyCode;
     if(e.keyCode == 77 || e.keyCode == 109)
-        var element = document.getElementById('circle-large');
         element.classList.toggle('transition');
 }
 
 //Pressing M will change the background color of the top right item
 function lightenUpMovies(e) {
     event.preventDefault();
+    var element = document.getElementById('movies-block');
     //e = event.which || event.keyCode;
     if(e.keyCode == 70 || e.keyCode == 102)
-        var element = document.getElementById('movies-block');
+
     element.classList.toggle('movies-lightened');
 }
 
