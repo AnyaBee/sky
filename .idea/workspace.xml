@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="049b1410-a3c5-4cd5-b7bd-af16e9e5f708" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sky.html" afterPath="$PROJECT_DIR$/sky.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,31 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="keys.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/keys.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="259" column="1" lean-forward="false" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom-map.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/custom-map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5640">
-              <caret line="376" column="6" lean-forward="true" selection-start-line="376" selection-start-column="6" selection-end-line="376" selection-end-column="6" />
+            <state relative-caret-position="398">
+              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -50,18 +29,8 @@
       <file leaf-file-name="sky.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sky.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="14" column="116" lean-forward="true" selection-start-line="14" selection-start-column="116" selection-end-line="14" selection-end-column="116" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="normalise.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/normalise.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="340" column="1" lean-forward="false" selection-start-line="340" selection-start-column="1" selection-end-line="340" selection-end-column="1" />
+            <state relative-caret-position="93">
+              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -86,6 +55,8 @@
       <find>wrapper</find>
       <find>mapElement</find>
       <find>map</find>
+      <find>.bb</find>
+      <find>images</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,8 +92,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1583" />
     <option name="y" value="292" />
-    <option name="width" value="1025" />
-    <option name="height" value="689" />
+    <option name="width" value="982" />
+    <option name="height" value="700" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -232,17 +203,18 @@
       <updated>1522273601276</updated>
       <workItem from="1522273602627" duration="7200000" />
       <workItem from="1522366884136" duration="14993000" />
-      <workItem from="1522503623176" duration="18164000" />
+      <workItem from="1522503623176" duration="20675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40357000" />
+    <option name="totallyTimeSpent" value="42868000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1583" y="292" width="1025" height="689" extended-state="0" />
+    <frame x="-1583" y="292" width="982" height="700" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27609757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28818738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -458,10 +430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sky.html">
+    <entry file="file://$PROJECT_DIR$/js/custom-map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="116" lean-forward="true" selection-start-line="14" selection-start-column="116" selection-end-line="14" selection-end-column="116" />
+        <state relative-caret-position="5640">
+          <caret line="376" column="6" lean-forward="true" selection-start-line="376" selection-start-column="6" selection-end-line="376" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -474,18 +446,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/sky.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="259" column="1" lean-forward="false" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
+        <state relative-caret-position="93">
+          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom-map.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5640">
-          <caret line="376" column="6" lean-forward="true" selection-start-line="376" selection-start-column="6" selection-end-line="376" selection-end-column="6" />
+        <state relative-caret-position="398">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding />
         </state>
       </provider>
