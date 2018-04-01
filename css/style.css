@@ -12,7 +12,6 @@ dark green: #1c4b4a;
 almost black: #000202;
  */
 
-
 .wrapper {
     padding: 0 20px 20px 20px;
     max-width: 1120px;
@@ -120,7 +119,7 @@ almost black: #000202;
 }
 
 .map {
-    width: 270px;
+    width: 280px;
     height: 550px;
 }
 
@@ -258,11 +257,4 @@ almost black: #000202;
 .image-lightened {
     background: url("../images/earth2.jpg") no-repeat;
     background-size: cover;
-}
-
-/*map*/
-
-.map {
-    width: 280px;
-    height: 550px;
 }
