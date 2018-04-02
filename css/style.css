@@ -3,6 +3,7 @@ body {
     font-family: 'Iceland', cursive;
     font-size: 16px;
     color: #4fb8b6;
+    min-width: 1024px;
 
 }
 
@@ -117,10 +118,11 @@ almost black: #000202;
     text-align: center;
     margin-right: 35px;
     position: relative;
+    overflow: hidden;
 }
 
 .map {
-    width: 280px;
+    max-width: 280px;
     height: 550px;
 
 }
@@ -179,6 +181,9 @@ almost black: #000202;
     width: 230px;
     height: 160px;
     margin: 0 10px 10px 10px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
 }
 
 .image1 {
